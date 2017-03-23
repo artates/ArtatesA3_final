@@ -44,11 +44,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent googleIntent = new Intent(MainActivity.this,
                 Google.class);
             startActivity(googleIntent);
+                break;
+
 
             case R.id.button_go:
                 Intent mesaIntent = new Intent(MainActivity.this,
                         Activity_Mesa.class);
                 startActivity(mesaIntent);
+                break;
 
         }
 
